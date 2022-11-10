@@ -9,7 +9,8 @@
     <title>DevCans - NIT Sikkim</title>
 
     <link href="assets/img/icon.png" rel="icon" />
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="assets/vendor/materialize/css/materialize.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +23,11 @@
             <div class="navbar">
                 <nav class="hoverable transparent">
                     <div class="nav-wrapper">
-                        <a href="index.html" class="brand-logo waves-effect"><img src="assets/img/devcans-logo.png" class="brand-icon">DevCans</a>
+                        <a href="index.php" class="brand-logo waves-effect">
+                    <img src="assets/img/devcans-logo.png" class="brand-icon">
+                    <img  src="assets/img/devCans.png" id= "new-logo" >
+                    
+                    </a>
                         <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
                             <li><a href="#about" class="waves-effect">About</a></li>
@@ -124,7 +129,26 @@
                     
                 </div>
                 <header class="section-header">
-                    <h4 class="title">Members</h4>
+                    <h4 class="title">Pioneers</h4>
+                </header>
+                <div class="slider-container">
+                    <div class="slide-controls">
+                        <button id="prev-btn">
+                            <i class="fa fa-chevron-left"></i>
+                        </button>
+                        <button id="next-btn">
+                            <i class="fa fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="slides">
+                        <div id="member-container" class="">
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <header class="section-header">
+                    <h4 class="title">Current Members</h4>
                 </header>
                 <div class="slider-container">
                     <div class="slide-controls">

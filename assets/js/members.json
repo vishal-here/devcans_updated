@@ -91,4 +91,26 @@
         }
       }
     ]
+    ,
+    "2022": [
+      {
+        "profile": "member",
+        "img": "assets/img/member/PokalaAnirudh.png",
+        "name": "Pokala Anirudh",
+        "designation": "Coordinator - ML, Data Science",
+        "social": {
+          "github": "https://github.com/pokalaanirudh",
+          "linkedin": "https://www.linkedin.com/in/pokala-anirudh-2a9352152/"
+        }
+      },
+      {
+        "profile": "member",
+        "img": "assets/img/member/PrinceRaj.jpg",
+        "name": "Prince Raj",
+        "designation": "Coordinator - Web Development",
+        "social": {
+          "github": "https://github.com/princeNITian",
+          "linkedin": "https://www.linkedin.com/in/iamprinceraj/"
+        }
+     
 }

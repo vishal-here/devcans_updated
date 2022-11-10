@@ -91,7 +91,11 @@ main {
 .brand-icon {
     margin-bottom: 5px;
 }
-
+#new-logo{
+    width: 220px;
+    height: 28px;
+    margin-bottom: 4px;
+}
 
 /* Landing */
 
@@ -501,6 +505,8 @@ main {
     #team .member {
         max-height: 34vw;
     }
+    
+  
 }
 
 /* Team Slider */
@@ -663,6 +669,11 @@ main {
 
     .welcome-msg {
         font-size: 16px;
+    }
+
+    #new-logo{
+        width: 150px;
+        height: 20px;
     }
 }
 
